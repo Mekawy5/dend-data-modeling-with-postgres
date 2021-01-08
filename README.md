@@ -15,6 +15,9 @@ This project is an implementation for ETL pipeline written in python for collect
 
 Using the star schema optimized for queries on song play analysis. This includes the following tables:
 
+![ER](https://user-images.githubusercontent.com/20432520/104038432-c6cedc80-51dd-11eb-92e7-b3d30b0a6c5d.jpg)
+
+
 #### Fact Table
 
 1.  **songplays**  - records in log data associated with song plays.
