@@ -94,8 +94,7 @@ songplay_table_insert = ("""
     INSERT INTO songplays 
         (start_time, user_id, level, song_id, artist_id, session_id, location, user_agent)
     VALUES
-        (%s, %s, %s, %s, %s, %s, %s, %s)
-    ON CONFLICT (songplay_id) DO NOTHING;
+        (%s, %s, %s, %s, %s, %s, %s, %s);
 """)
 
 user_table_insert = ("""
